@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 require("dotenv").config();
+const getNewsRouter = require("./routes/getNews.route");
 
 app.use(express.json());
 
@@ -11,6 +12,8 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send(`app is running smoothly at port ${process.env?.PORT}`);
 });
+
+app.use("/api/news", getNewsRouter);
 
 app.listen(process.env?.PORT || 3002, () => {
   console.log("app is running at ", process.env.URL);
