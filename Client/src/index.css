@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@keyframes hue-shift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+/* 2. The Particle Floater */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.5); }
+}
+
+.animate-twinkle { 
+  animation: twinkle 4s infinite ease-in-out; 
+}
+
+
+.news-card-entry {
+  transition: transform 0.5s ease; /* This allows the 'shift down' to be smooth */
+}
+.news-card-wrapper {
+  transition: transform 0.3s ease-out;
+}
+
+
+
+
+
+
+*::-webkit-scrollbar{
+  display : none;
+}
+
+
+
+
+.animate-gradient-glow {
+  animation: gradient-shift 8s ease infinite;
+}
+
+.premium-gradient-base {
+  background: linear-gradient(-45deg, #1d4ed8, #4338ca, #5b21b6, #1d4ed8);
+  background-size: 200% 200%;
+}
+
+.premium-gradient-core {
+  background: radial-gradient(circle, rgba(149,227,233,1) 0%, rgba(30,165,170,0.4) 60%, rgba(13,26,48,0) 100%);
+}

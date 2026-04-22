@@ -1,5 +1,6 @@
 const getNewsService = require("../services/getNews.service");
-
+const rawNewsData = require("../utils/rawNewsData");
+const calulateSentimentLocal = require("../services/calculateSentimentLocal.service");
 require("dotenv").config();
 
 /**
@@ -31,6 +32,25 @@ const getNewsController = async (req, res) => {
   }
 };
 
+const getNewsSentimentController = async (req, res) => {
+  try {
+    const Data = await calulateSentimentLocal(rawNewsData);
+    console.log(Data);
+    const result = rawNewsData.map((news, index) => ({
+      ...news,
+      sentiment: Data.sentimentData[index]?.sentiment || 0,
+    }));
+
+    res
+      .status(200)
+      .json({ status: true, data: result, AIinsight: Data.aditionAIDATA });
+  } catch (error) {
+    console.error("getMeData Error:", error);
+    res.status(500).json({ message: "Error in fetching news" });
+  }
+};
+
 module.exports = {
   getNewsController,
+  getNewsSentimentController,
 };
