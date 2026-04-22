@@ -589,9 +589,7 @@ Senti-Trade.ai/
 
 ### 🔗 Visit Live Site
 
-**[🚀 Live Demo - Coming Soon](https://senti-trade-ai.com](https://senti-trade-ai.vercel.app/)**
-
-_(Replace with your actual deployment URL)_
+**[🚀 Live Demo ](https://senti-trade-ai.vercel.app/)**
 
 ---
 
