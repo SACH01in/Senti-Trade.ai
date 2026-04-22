@@ -1,8 +1,8 @@
 # 📊 Senti-Trade.ai - Real-Time Market Sentiment Analysis
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Node](https://img.shields.io/badge/Node-v18%2B-green.svg)
-![React](https://img.shields.io/badge/React-v19-blue.svg)
+[![Visit Site](https://img.shields.io/badge/Visit-Site-blue)](https://your-website-url.com)
+[![Node](https://img.shields.io/badge/Node-v18%2B-green.svg)](https://nodejs.org)
+[![React](https://img.shields.io/badge/React-v19-blue.svg)](https://react.dev)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)
 
 **AI-powered financial sentiment analysis platform that processes real-time news to predict market movements**
