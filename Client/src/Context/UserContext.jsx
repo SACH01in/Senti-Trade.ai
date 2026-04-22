@@ -75,7 +75,8 @@ export const UserProvider = ({ children }) => {
       setError("");
 
       // Fetch sentiment and news data
-      const endpoint = `${import.meta.env.VITE_SERVER_URL}`;
+      const endpoint = `${import.meta.env.VITE_SERVER_URL}/api/sentiment/getData`;
+      console.log(import.meta.env.VITE_SERVER_URL)
       const response = await axios.post(endpoint, { topic });
 
       const { newsData, rawData } = response.data;
