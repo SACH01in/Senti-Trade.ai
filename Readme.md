@@ -744,12 +744,6 @@ _(Replace with your actual deployment URL)_
 
 ---
 
-## 📄 License
-
-MIT License - See LICENSE file
-
----
-
 ## 👥 Credits & Acknowledgments
 
 Built with ❤️ using:
@@ -766,13 +760,12 @@ Built with ❤️ using:
 
 ### Report Issues
 
-- GitHub: [Issues](https://github.com/yourusername/senti-trade-ai/issues)
-- Email: support@senti-trade-ai.com
+- GitHub: [Issues](https://github.com/SACH01in/senti-trade-ai/issues)
+- Email: sachinsingh1410129@gmail.com.com
 
 ### Get Help
 
-- Discord: [Community](https://discord.gg/senti-trade)
-- Twitter: [@SentiTradeAI](https://twitter.com/SentiTradeAI)
+- LinkedIn: [@SentiTradeAI](www.linkedin.com/in/sachin-singh-8b9913264)
 
 ---
 
